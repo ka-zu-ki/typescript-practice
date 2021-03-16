@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/ka-zu-ki/typescript-practice#readme",
   "dependencies": {
+    "axios": "^0.19.2",
     "typescript": "^3.7.5"
   },
   "devDependencies": {
