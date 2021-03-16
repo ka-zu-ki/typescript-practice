@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "ts-node-dev --respawn",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/ka-zu-ki/typescript-practice/issues"
   },
-  "homepage": "https://github.com/ka-zu-ki/typescript-practice#readme"
+  "homepage": "https://github.com/ka-zu-ki/typescript-practice#readme",
+  "dependencies": {
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "ts-node": "^8.6.2",
+    "ts-node-dev": "^1.0.0-pre.44"
+  }
 }
